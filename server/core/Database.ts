@@ -2,7 +2,7 @@ import { Dialect, Sequelize } from "sequelize";
 import Relations from "../database/Relations";
 import Models from "../database/models/Models";
 
-const DATEBASE_NAME = process.env.DATEBASE_NAME || "Project_1";
+const DATEBASE_NAME = process.env.DATEBASE_NAME || "VK_CLONE";
 const DATEBASE_USERNAME = process.env.DATEBASE_USERNAME || "sannikovadmin";
 const DATEBASE_PASSWORD = process.env.DATEBASE_PASSWORD || "sa";
 const DATEBASE_DIALECT = process.env.DATEBASE_DIALECT as Dialect || "mssql";
