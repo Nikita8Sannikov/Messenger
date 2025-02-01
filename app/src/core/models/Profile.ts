@@ -19,5 +19,5 @@ export interface Profile extends EventEmitter {
     addPhotos: (data: Object, setLoading: Dispatch<SetStateAction<boolean>>) => void;
     deletePhoto: (data: Object, photos: IPhoto[], path: string) => void;
     getFriends: (setLoading: Dispatch<SetStateAction<boolean>>) => void;
-    editInfo: ( result: IFormValues) => void;
+    editInfo: (result: IFormValues) => void;
 }
